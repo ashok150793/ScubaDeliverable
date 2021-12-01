@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters TestSuite">
+<test name="Test 1">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="www.amazon.com"></parameter>
+	<classes>
+		<class name="com.scuba.testng.TestNG_Parameters"></class>
+	</classes>
+</test>
+</suite>
